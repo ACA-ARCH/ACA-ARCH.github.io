@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <head>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
   <style>
       header {
       text-align: center;
       color: black;
       font-family: courier;
       background-size: cover;
-
+      background: url("https://img1.etsystatic.com/008/1/6127328/il_fullxfull.377223377_i3bz.jpg");
+      margin: 10px 10px 10px 10px;
+      padding: 10px;
     }
       h1 {
-      font-size: 40px;
+      font-size: 10px;
       font-family: courier;
       font-color: black;
-    }
-    h2 {
+      }
+      h2 {
+        font-family: courier;
+      }
+    h3 {
       font-family: courier;
     }
-  h3 {
-    font-family: courier;
-  }
     ul {
       padding: 10px;
-      background: white;
+      background: rgba(0,0,0,0.2);
     }
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
+    }
+    a {
+      color: black;
     }
     article {
       max-width: 500px;
       padding: 20px;
       margin: 0 auto;
     }
-    
-      li { 
-        display: block;
-        padding: 5px;
+
+    .title {
+      font-size: 100px;
+      font-family: 'Lato', sans-serif;
       }
 
-      .title {
-        font-size: 100px
-      }
 #social-buttons {
   margin-top: 50px;
 }
@@ -64,19 +67,34 @@
 .container1 {
     color: #ddd;
 }
-  
-    }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 15px;
+  }  
+  h3 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 8;
+  }
+  article {
+    font-size: 8;
+  }
+}
   </style>
 </head>
 <body>
   <header>
         <title><ACA></title>
 
-    <h1>ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA<div class='title'> ACA Architecture </div> ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</h1>
+    <h1>ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA<div class='title'> ACA </div> ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</h1>
     <ul>
-      <li><a href="http://www.aca-arch.github.io/AmysStories/">Amy's Stories</a></li>
       <li><a href="http://www.aca-arch.github.io/AislingsStories/">Aisling's Stories</a></li>
       <li><a href="http://www.aca-arch.github.io/AislingsStories/">Charlotte's Stories</a></li>
+      <li><a href="http://www.aca-arch.github.io/AmysStories/">Amy's Stories</a></li>
 
 
     </ul>
@@ -115,7 +133,7 @@
 </div>
 
 <div id="column3" style="float:right; margin:0; width:15%;">
-<h3> Contact US</h3>
+<h3> Contact Us</h3>
 <form role='form' class='form-inline'>
             <div class="form-group">
           <label for="email"></label>
