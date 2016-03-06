@@ -1,48 +1,145 @@
 <!DOCTYPE html>
-    <head>
+<head>
+  <style>
+      header {
+      text-align: center;
+      color: black;
+      font-family: courier;
+      background-size: cover;
 
-<Style>
-h1 {
-	font-family:courier;
-	font- color: black;
-	text-align: center;
+    }
+      h1 {
+      font-size: 40px;
+      font-family: courier;
+      font-color: black;
+    }
+    h2 {
+      font-family: courier;
+    }
+  h3 {
+    font-family: courier;
+  }
+    ul {
+      padding: 10px;
+      background: white;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    
+      li { 
+        display: block;
+        padding: 5px;
+      }
+
+      .title {
+        font-size: 100px
+      }
+#social-buttons {
+  margin-top: 50px;
 }
 
-h2{
-	font-family: courier;
-	font color: black;
-font-size: 16px;
-text-align: center;
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
 }
 
-h3{
-	font-family: courier;
-	font-size: 16px bold;
-	text-align: left;
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
 }
-p{
-	font-family: helvetica;
-	font-size: 12px;
-	font-color: black;
-	text-align: left, justify;
-	margin-right: 1250px;
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
 }
-</style>
-        <title><ACA></title>
-      
-    </head>
+.container1 {
+    color: #ddd;
+}
+  
+    }
+  </style>
+</head>
 <body>
-	<h1>ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</h1>
-	<h2> Architectural Blog</h2>
-	<p></p>
+  <header>
+        <title><ACA></title>
 
-	<h3> About Us</h3>
-	<p>We are an Architectural Blog founded in 2016.
-		AislingCharlotteAmy are the founders of ACA.
-
-		We are three architecture students living in Belfast.
-
-		We are passionate about Architectural Theory and Discussion.</P
-	</body>
+    <h1>ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA<div class='title'> ACA Architecture </div> ACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACACA</h1>
+    <ul>
+      <li><a href="http://www.aca-arch.github.io/AmysStories/">Amy's Stories</a></li>
+      <li><a href="http://www.aca-arch.github.io/AislingsStories/">Aisling's Stories</a></li>
+      <li><a href="http://www.aca-arch.github.io/AislingsStories/">Charlotte's Stories</a></li>
 
 
+    </ul>
+  </header>
+
+<div id="contentBox" style="margin:0px auto; width:100%">
+<div id="column1" style="float:left; margin:0; width:15%;">
+<div class'about-us'>
+<article>
+  <h2>About Us</h2>
+  <p>We are an Architectural Blog founded in 2016.
+          AislingCharlotteAmy are the founders of ACA.
+          We are three architecture students living in Belfast.
+          We are passionate about Architectural Theory and Discussion.</p>
+   </article>
+</div>
+</div>
+       
+<div id="column2" style="float:left; margin:0; width:60%;">
+  <article>
+  <h2>article 1</h2>
+  <p>body text -- insert here</p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>article 2</h2>
+  <p>body text -- insert here</p>
+  <button>Like</button>
+  </article>
+  <article>
+  <h2>article 3</h2>
+  <p>body text -- insert here</p>
+  <button>Like</button>
+  </article>
+</div>
+</div>
+
+<div id="column3" style="float:right; margin:0; width:15%;">
+<h3> Contact US</h3>
+<form role='form' class='form-inline'>
+            <div class="form-group">
+          <label for="email"></label>
+          <input type="text" class='form-control' name="email" placeholder="Enter your email" >
+          <button type="submit" class='btn btn-success'>Send</button>
+          </div>
+          </form>
+ <div id='social-buttons'>
+    <button class="btn btn-lg btn-twitter">Twitter</button>
+    <button class="btn btn-lg btn-facebook">Facebook</button>
+    <button class="btn btn-lg btn-pinterest">Pinterest</button>
+    </div>
+
+</div>
+</div>
+
+  <script>
+$("button").on("click", function() {
+  alert("clicked!")
+});
+  </script>
+   <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+
+
+
+  </body>
