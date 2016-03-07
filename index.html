@@ -1,4 +1,161 @@
-" class='form-control' name="email" placeholder="Enter your email" >
+<!DOCTYPE html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+  <style>
+      header {
+      text-align: center;
+      color: black;
+      font-family: courier;
+      background-size: cover;
+      background: url("https://img1.etsystatic.com/008/1/6127328/il_fullxfull.377223377_i3bz.jpg");
+      margin: 10px 10px 10px 10px;
+      padding: 10px;
+    }
+      h1 {
+      font-size: 10px;
+      font-family: courier;
+      font-color: black;
+      }
+      h2 {
+        font-family: courier;
+      }
+    h3 {
+      font-family: courier;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.3);
+      }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    a {
+      color: white;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    .title {
+      font-size: 100px;
+      font-family: 'Raleway', sans-serif;
+      color: rgba(25,25,112,1);
+      }
+#social-buttons {
+  margin-top: 50px;
+}
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
+.btn-pinterest {
+  background-color: #b62f26;
+  border-color: #b62f26;
+  color: white;
+}
+.container1 {
+    color: #ddd;
+}
+button {
+  margin: 0 0 5px 5px;
+}
+.first{
+  background-image: url("https://pbs.twimg.com/media/B0jzBD1IQAEQ3W_.jpg");
+  border-radius: 12px;
+}
+.second{
+  background-image: url("http://www.investsoutheastengland.co.uk/wp-content/uploads/2015/09/1681653-poster-1280-beer-bottles.jpg");
+  border-radius: 12px;
+}
+.third{
+  background-image: url("http://cdn.archinect.net/images/650x/a9/a99brc17baqb554f.jpg");
+  border-radius: 12px;
+  }
+@media (max-width: 500px) {
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 15px;
+  }  
+  h3 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 8;
+  }
+  article {
+    font-size: 8;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+        <title>ACA</title>
+
+    <h1><div class='title'> ACA </div></h1>
+    <ul>
+      <li><a href="http://www.aca-arch.github.io/AislingsStories/">Aisling's Stories</a></li>
+      <li><a href="http://www.aca-arch.github.io/AislingsStories/">Charlotte's Stories</a></li>
+      <li><a href="http://www.aca-arch.github.io/AmysStories/">Amy's Stories</a></li>
+
+
+    </ul>
+  </header>
+
+<div id="contentBox" style="margin:0px auto; width:100%">
+<div id="column1" style="float:left; margin:0; width:15%;">
+<div class'about-us'>
+<article>
+  <h2>About Us</h2>
+  <p>We are an Architectural Blog founded in 2016.
+          AislingCharlotteAmy are the founders of ACA.
+          We are three architecture students living in Belfast.
+          We are passionate about Architectural Theory and Discussion.</p>
+   </article>
+</div>
+</div>
+       
+<div id="column2" style="float:left; margin:0; width:60%;">
+  <article>
+  <div class="first">
+  <h2>QUB Students win European Award</h2>
+  <p>MArch students Tallulah Brown and Thomas Smith have recently been awarded the European Best Use of Concrete in a Student Project. At a glamorous event in Geneva both students were awarded with a trophy and scholarships.</p>
+  <button>Like</button>
+  </div>
+  </article>
+  <article>
+  <div class="second">
+  <h2>QUB Students Battle It Out in RSUA Pub Quiz</h2>
+  <p>Last Thursday was the annual RSUA Pub Quiz was held in The Black Box. Despite valiant efforts the two QUB student teams lost out to their UU counterparts.</p>
+  <button>Like</button>
+  </div>
+  </article>
+  <article>
+  <div class="third">
+  <h2>Zaha Hadid Awarded with RIBA Gold Medal</h2>
+  <p>After years of innovative new projects, changing the architecture world, Zaha Hadid has been awarded the RIBA Gold Award for her outstanding contribution to British design. At the ceremony in Portland Place, Hadid said she was "humbled and honoured".</p>
+  <button>Like</button>
+  </div>
+  </article>
+</div>
+</div>
+
+<div id="column3" style="float:right; margin:0; width:15%;">
+<h3> Contact Us</h3>
+<form role='form' class='form-inline'>
+            <div class="form-group">
+          <label for="email"></label>
+          <input type="text" class='form-control' name="email" placeholder="Enter your email" >
           <button type="submit" class='btn btn-success'>Send</button>
           </div>
           </form>
@@ -22,4 +179,3 @@ $("button").on("click", function() {
 
 
   </body>
-
