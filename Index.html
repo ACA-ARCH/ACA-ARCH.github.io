@@ -8,7 +8,6 @@
       font-family: courier;
       background-size: cover;
       background: url("https://img1.etsystatic.com/008/1/6127328/il_fullxfull.377223377_i3bz.jpg");
-      opacity: 0.5;
       margin: 10px 10px 10px 10px;
       padding: 10px;
     }
@@ -26,13 +25,13 @@
     ul {
       padding: 10px;
       background: rgba(0,0,0,0.3);
-    }
+      }
     li {
       display: inline;
       padding: 0px 10px 0px 10px;
     }
     a {
-      color: black;
+      color: white;
     }
     article {
       max-width: 500px;
@@ -43,6 +42,7 @@
     .title {
       font-size: 100px;
       font-family: 'Raleway', sans-serif;
+      color: rgba(25,25,112,1);
       }
 
 #social-buttons {
@@ -68,6 +68,22 @@
 .container1 {
     color: #ddd;
 }
+button {
+  margin: 0 0 5px 5px;
+}
+.first{
+  background-image: url("https://pbs.twimg.com/media/B0jzBD1IQAEQ3W_.jpg");
+  border-radius: 12px;
+
+}
+.second{
+  background-image: url("http://www.investsoutheastengland.co.uk/wp-content/uploads/2015/09/1681653-poster-1280-beer-bottles.jpg");
+  border-radius: 12px;
+}
+.third{
+  background-image: url("http://cdn.archinect.net/images/650x/a9/a99brc17baqb554f.jpg");
+  border-radius: 12px;
+  }
 @media (max-width: 500px) {
   h1 {
     font-size: 25px;
@@ -116,19 +132,25 @@
        
 <div id="column2" style="float:left; margin:0; width:60%;">
   <article>
-  <h2>article 1</h2>
-  <p>body text -- insert here</p>
+  <div class="first">
+  <h2>QUB Students win European Award</h2>
+  <p>MArch students Tallulah Brown and Thomas Smith have recently been awarded the European Best Use of Concrete in a Student Project. At a glamorous event in Geneva both students were awarded with a trophy and scholarships.</p>
   <button>Like</button>
+  </div>
   </article>
   <article>
-  <h2>article 2</h2>
-  <p>body text -- insert here</p>
+  <div class="second">
+  <h2>QUB Students Battle It Out in RSUA Pub Quiz</h2>
+  <p>Last Thursday was the annual RSUA Pub Quiz was held in The Black Box. Despite valiant efforts the two QUB student teams lost out to their UU counterparts.</p>
   <button>Like</button>
+  </div>
   </article>
   <article>
-  <h2>article 3</h2>
-  <p>body text -- insert here</p>
+  <div class="third">
+  <h2>Zaha Hadid Awarded with RIBA Gold Medal</h2>
+  <p>After years of innovative new projects, changing the architecture world, Zaha Hadid has been awarded the RIBA Gold Award for her outstanding contribution to British design. At the ceremony in Portland Place, Hadid said she was "humbled and honoured".</p>
   <button>Like</button>
+  </div>
   </article>
 </div>
 </div>
